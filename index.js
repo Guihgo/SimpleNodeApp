@@ -6,6 +6,7 @@ var port = process.env.PORT || 8080;
 
 //We need a function which handles requests and send response
 function handleRequest(request, response){
+    console.log('teste');
     response.end('It Works!! Path Hit: ' + request.url);
 }
 
